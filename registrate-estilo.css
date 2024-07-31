@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(13, 42, 95 ), rgb(30, 61, 119),rgb(30, 61, 119), rgb(123, 145, 185),rgb(20, 75, 179) );
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-title {
+   position: relative; 
+   width: 100%;
+   padding: 5px 80px;
+}
+
+    .container-title .title { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .container-title .title h1 {
+        color: #fff;
+    }
+
+.box {
+    position: relative;
+    display: grid;
+    margin:100px;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "form info"
+    "form imagen";
+    margin-top: 5px;
+
+}
+
+.container {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+    
+}
+
+.container h3 {
+    color: rgb(8, 9, 68);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+
+ .info {
+    grid-area: info;
+    background-color: rgb(248, 248, 247);
+    padding: 20px;
+}
+
+
+
+.formbox {
+    position: relative;
+    width: 100%;
+}
+
+.formbox .container50 {
+    display: flex;
+    gap: 20px;
+}
+
+.form__section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.form__section label {
+    color: rgb(29, 110, 177);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form__section input {
+    padding: 10px;
+    font-size: 1em;
+    outline: none;
+    border: 1px solid rgb(5, 3, 31);
+}
+
+.form__section input[type="submit"] {
+    background: rgb(170, 48, 75);
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+    margin: 15px;
+}
+
+.formbox .container100 {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+     background: rgb(6, 36, 70);
+}
+
+.info h3 {
+    color: #fff;
+}
+
+.info .infobox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info .infobox div span {
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(66, 127, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info .infobox div p {
+    color: #fff;
+    font-size: 1em;
+}
+
+.info .infobox div a { 
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.sci {
+    margin-top: 230px;
+    display: flex;  
+}
+
+.sci li {
+    list-style: none;
+    margin-right: 10px;
+    padding-right: 20px;
+}
+
+.sci li a {
+    color: #ccc;
+    font-size: 2em;
+}
+
+.sci li a:hover {
+    color: #ffffff;
+}
+

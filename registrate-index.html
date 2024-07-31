@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenge de CSS</title>
+	<link rel="stylesheet" type="text/css" href="registrate-estilo.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="container-title">
+       <div class="title">
+        <h1>Registrate</h1>
+       </div> 
+    </div>
+
+    <div class="box">
+            <!-- form -->
+            <div class="container form">
+                <h3>Datos</h3>
+                <form>
+                    <div class="formbox">
+                        <div class="container50">
+                            <div class="form__section">
+                                <label>Full name</label>
+                                <input type="text" placeholder="John Smith">
+                            </div>
+                        
+                            <div class="form__section">
+                                <label>Email</label>
+                                <input type="email" placeholder="John_Smith@gmail.com">
+                            </div>
+                        </div>
+
+                        <div class="container50">
+                            <div class="form__section">
+                                <label>Contraseña</label>
+                                <input type="password">
+                            </div>
+                        
+                            <div class="form__section">
+                                <label>Telefono</label>
+                                <input type="number" placeholder="+51 985 789 365">
+                            </div>
+                        </div>
+                        
+                        <div class="container50">
+                            <div class="form__section">
+                                <label>Pais:</label>
+                                <select class="form__input">
+                                    <option value="opcion1">Perú</option>
+                                    <option value="opcion2">Colombia</option>
+                                    <option value="opcion3">Brazil</option>
+                                </select>
+                            </div>
+                        
+                            <div class="form__section">
+                                <label>Género:</label>
+                                <div>
+                                  <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                                  <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                                </div>
+                            </div>
+                              
+                        </div>
+
+                        <div class="container50">
+                            <div class="form__section">
+                                <label>Calificacion:</label>
+                                <input type="range" min="0" max="100">
+                            </div>
+                        </div>
+                        
+                        <div class="container100">
+                            <div class="form__section">
+                                <span><input type="checkbox">Aceptar terminos y condiciones</span>
+                                <span><input type="checkbox">Aceptar notificaciones</span>
+                            </div>
+                        </div>
+
+                        <div class="container100">
+                            <div class="form__section">
+                               <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div> 
+
+            <!-- info -->
+            <div class="container info">
+                <h3>Contacto</h3>
+                <div class="infobox">
+                    <div>
+                        <span><ion-icon name="pin"></ion-icon></span>
+                            <p>La molina, Lima</p>
+                    </div>
+                    <div>
+                        <span><ion-icon name="mail"></ion-icon></span>
+                            <a href="mailto:travelworld@email.com">travelworld@email.com</a>
+                    </div>
+                    <div>
+                        <span><ion-icon name="call"></ion-icon></span>
+                            <a href="tel:+51988 239 881">+51 988 239 881</a>
+                    </div>
+                    <!-- social media -->
+                    <ul class="sci">
+                        <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href=""><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                        <li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    </ul>
+                </div> 
+            </div>
+            
+            
+     </div>
+     
+     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+     
+</body>
+
+</html>
